@@ -97,3 +97,10 @@ deploy:
   repo: git@github.com:Qooence/Qooence.github.io.git
   branch: master
 language: zh-CN
+
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
